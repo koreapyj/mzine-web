@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+
+# Build output (npm run build → dist/moazine-web-viewer.user.js)
+dist/
+
+# Reference binaries (third-party installer used for analysis only)
+.ref/
+
+# Vite / Vitest caches
+.vite/
+coverage/
+*.tsbuildinfo
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment / local overrides
+.env
+.env.*
+!.env.example
+
+# Editors / OS
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
